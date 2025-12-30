@@ -15,6 +15,6 @@ public class IntToBin {
         else if ( x == 1){
             return "1";
         }
-        return   toBinary(x/2) + x%2;
+        return toBinary(x/2) + x%2;
     }    
  }
